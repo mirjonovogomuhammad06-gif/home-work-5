@@ -2,3 +2,35 @@
     margin: 0;
     padding: 0;
 }
+.header{
+    display: flex;
+    align-items: center;
+    width: 1200px;
+    margin: auto;
+    gap: 400px;
+    padding: 20px 0;
+}
+.left{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    font-family: sans-serif;
+}
+.left_in{
+    display: flex;
+    gap: 20px;
+}
+.left_in select{
+    border: none;
+    font-size: 16px;
+    
+}
+.right input{
+    border: none;
+    outline: none;
+    width: 100px;
+}
+.right{
+    border-bottom: 1px solid gray;
+    padding-bottom:10px;
+}
