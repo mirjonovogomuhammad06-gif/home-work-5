@@ -34,12 +34,16 @@
     border-bottom: 1px solid gray;
     padding-bottom:10px;
 }
-.section1{
+.box_all{
     display: flex;
     max-width: 1200px;
     margin: auto;
     align-items: center;
     justify-content: space-between;
+    
+}
+.section1{
+    background:linear-gradient(135deg, white, rgb(187, 220, 231));
 }
 .left1 h1{
     font-size: 56px;
